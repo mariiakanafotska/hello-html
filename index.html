@@ -11,8 +11,9 @@
 <body>
     <h1>Hello HTML </h1>
     <h2> Hello again</h2>
+    <h3>Hello</h3>
+    <h6>hello</h6>
     <p> Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-    <img src="img/2022-05-27 18.23.01.jpg" alt="img">
     <main>
         <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
         <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
@@ -21,7 +22,6 @@
     <a href="https://www.freecatphotoapp.com">cat photos</a>
     <p3> View more  <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
     </p3>
-
    <ul>
         <li>day1</li>
         <li>day2</li>
@@ -32,8 +32,18 @@
         <li>day2</li>
         <li>day3</li>
    </ol>
-      <input type="text" placeholder="hello">
-      
+   <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <input type="text" name="catphotourl" placeholder="cat photo URL" required>  <button type="submit">submit</button> 
+    <hr>
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> HTML</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> CSS</label>
+    <hr>
+    <label for="travelling"><input id="loving" type="checkbox" name="personality" checked> Travelling</label>
+    <label for="going"><input id="loving" type="checkbox" name="personality"> Going</label>
+    <label for="walking"><input id="loving" type="checkbox" name="personality"> Walking</label>
+   </form>
+   <div> hello world</div>
+</main>
 </body>
 
 </html>
